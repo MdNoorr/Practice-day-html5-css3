@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background: lightblue;
+  font-family: "Open Sans";
+}
+
+.container {
+  text-align: center;
+}
+
+p {
+  margin-top: 60px;
+}
+
+.translate,
+.scale,
+.rotate {
+  margin: 50px 10px auto;
+  display: inline-block;
+  background: papayawhip;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  transition: 1s ease;
+}
+
+span {
+  margin-top: 60px;
+}
+
+.translate:hover {
+  transform: translateY(100px);
+}
+
+.scale:hover {
+  transform: scale(0.5, 2);
+}
+
+.rotate:active {
+  transform: rotate(360deg);
+}
+
+.rotate:active {
+  transform: rotate(6turn);
+}

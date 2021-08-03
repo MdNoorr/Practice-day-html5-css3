@@ -1,0 +1,146 @@
+/* -----------------------
+-------------Fonts ------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+/*------------------------
+-------Common Style-------*/
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  margin-top: 100px;
+}
+/*------------------------
+-----------Nav--------Bar */
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #2d25a0;
+  padding-top: 42px;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 20px;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+.login-btn {
+  width: 123px;
+  padding: 10px 24px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e02c6d;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*-------------------
+-----------Button------ */
+
+.button {
+  width: 168px;
+  padding: 10px 24px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e02c6d;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\2192";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -100px;
+  left: 100px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*-------------------------------
+-------------Header Part--------- */
+
+.header-banner {
+  width: 100%;
+  height: 627px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2d25a0;
+  z-index: 1;
+}
+
+.banner {
+  padding-top: 49px;
+}
+
+.banner img {
+  width: 556.01px;
+}
+
+.header-title {
+  padding-top: 121px;
+}
+
+.header-title h1 {
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 27px;
+}

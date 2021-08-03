@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3 Overflow</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* 
+      html,
+      body {
+        height: 100%;
+      } */
+
+      h1 {
+        text-align: center;
+        color: tomato;
+        margin-bottom: 30px;
+      }
+
+      section {
+        padding-bottom: 200px;
+        height: 350px;
+        border: 5px solid blue;
+        margin: 22px;
+        border-radius: 22px;
+        padding: 50px;
+      }
+    </style>
+    <link rel="stylesheet" href="./Overflow.css" />
+    <style>
+            .link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+        width: 200px;
+        height: 20px;
+        display: block;
+        margin-top: 20px;
+        border: 5px solid #ffc996;
+        border-radius: 4px;
+        padding: 15px 25px;
+        text-decoration: none;
+        background-color: darkred;
+        color: #ffc996;
+        font-size: 25px;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Overflow Example</h1>
+      <p id="p1">
+        <code>overflow: visible</code>: Non-fitting content spills outside of
+        the edges of the box for all to see. Default.
+      </p>
+      <p id="p2">
+        <code>overflow: hidden</code>: Box is clipped, non-fitting content is
+        unseen and the browser does not offer a way to see it.
+      </p>
+      <p id="p3">
+        <code>overflow: scroll</code>: Box is clipped, non-fitting content is
+        initially unseen and the browser offers up a scrolling mechanism (or
+        equivalent) so that the it can be seen upon user interaction.
+      </p>
+      <p id="p4">
+        <code>overflow: auto</code>: Browser dependent, but typically similar to
+        <code>scroll</code>.
+      </p>
+    </section>
+
+    <div class="link">
+      <a href="../Parent/Parent.html">Back to Home</a>
+    </div>
+  </body>
+</html>

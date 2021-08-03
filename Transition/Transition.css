@@ -1,0 +1,19 @@
+
+.box1 {
+  width: 150px;
+  border-radius: 10px;
+  height: 150px;
+  background-color: #003638;
+  transition: all 5s;
+}
+
+.box1:hover {
+  width: 1100px;
+  border-radius: 15px;
+  background-color: orange;
+}
+
+h1{
+  text-align: center;
+  color: orange;
+}
